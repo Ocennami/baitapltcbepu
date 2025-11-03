@@ -7,8 +7,9 @@ int main()
 	printf("nhap a=");
 	scanf("%lf", &a);
 	printf("\n");
+	
 	B=log(a*a) - tan(3*a);
 	printf("So da nhap a=%8.2f\n", a);
-	printf("Gia tri bieu thuc B=%.6f\n", B);
+	printf("Gia tri bieu thuc B=%f\n", B);
 	return 0; 
 } 
